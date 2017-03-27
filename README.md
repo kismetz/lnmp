@@ -14,8 +14,8 @@ mysql 5.6
 账号root
 密码123456
 
-nginx 1.9
-config：/etc/nginx/sites-enabled
-web：/opt/htdocs
-error_log: /opt/log/nginx/error.log
-access_log: /opt/log/nginx/access.log
+nginx 1.9   
+config：/etc/nginx/sites-enabled   
+web：/opt/htdocs   
+error_log: /opt/log/nginx/error.log   
+access_log: /opt/log/nginx/access.log   
