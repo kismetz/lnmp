@@ -6,7 +6,7 @@ nginx:
         - "php"
     volumes:
         - e:/etc/nginx/sites-enabled:/etc/nginx/sites-enabled
-        - e:/opt:/opt
+        - e:/project:/opt/htdocs
 
 php:
     build: ./php
@@ -16,6 +16,7 @@ php:
         - "mysql"
     volumes:
         - e:/opt:/opt
+        - e:/project:/opt/htdocs
 
 mysql:
     build: ./mysql

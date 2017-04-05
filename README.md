@@ -2,7 +2,10 @@
 pull下来后在根目录执行以下命令即可安装环境
 
 ```
-docker-compose up -d
+#创建或重建镜像
+docker-compose build
+#启动容器，--build参数创建或重建镜像，-d后台启动容器
+docker-compose up --build
 ```
 
 php 5.6   

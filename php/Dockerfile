@@ -1,4 +1,4 @@
-From php:5.6-fpm
+From php:7-fpm
 
 #安装扩展，gd需要libpng支持
 RUN apt-get update \
